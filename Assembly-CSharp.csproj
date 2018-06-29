@@ -62,6 +62,11 @@
     <Compile Include="Assets\API\API01EventFunction.cs" />
     <Compile Include="Assets\API\API02Time.cs" />
     <Compile Include="Assets\API\API03GameObject.cs" />
+    <Compile Include="Assets\API\API04Message.cs" />
+    <Compile Include="Assets\API\API06MonoBehaviour.cs" />
+    <Compile Include="Assets\API\API07Invoke.cs" />
+    <Compile Include="Assets\API\API08Coroutine.cs" />
+    <Compile Include="Assets\API\Cube.cs" />
     <Compile Include="Assets\Scripts\InspectorViewDemo.cs" />
     <Compile Include="Assets\Scripts\MyCompoment1.cs" />
     <Compile Include="Assets\Scripts\MyCompoment2.cs" />

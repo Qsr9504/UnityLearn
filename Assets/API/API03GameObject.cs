@@ -18,6 +18,12 @@ public class API03GameObject : MonoBehaviour {
         
         //为已有物体进行添加组件
         game.AddComponent<Rigidbody>();
+
+        //查找gameobject
+        Transform[] ts = FindObjectsOfType<Transform>();//不查找未激活的游戏物体
+        foreach (Transform t in ts) {
+            Debug.Log(t);
+        }
 	}
 	
 	// Update is called once per frame
@@ -25,3 +31,4 @@ public class API03GameObject : MonoBehaviour {
 		
 	}
 }
+  
